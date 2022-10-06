@@ -6,14 +6,53 @@ import argparse
 import requests
 import shodan
 from colorama import init, Fore
+import pyfiglet as fig
+import time
+from time import sleep
+from alive_progress import alive_bar
 
 # COLOURS...
 red = Fore.LIGHTRED_EX
 green = Fore.LIGHTGREEN_EX
 blue = Fore.LIGHTBLUE_EX
 highlight = Fore.MAGENTA
+yellow = Fore.LIGHTYELLOW_EX
 reset = Fore.RESET
 init()
+
+# LOADING ANIMATION
+def anime():
+    t = 0
+    while t < 1:
+        blah = "\|/-\|/-"
+        for l in blah:
+            sys.stdout.write(l)
+            sys.stdout.flush()
+            sys.stdout.write('\b')
+            time.sleep(0.2)
+        t = t + 1
+
+
+def jeff():
+    items = range(1000)
+    with alive_bar(len(items)) as bar:
+        for item in items:
+            bar()
+
+
+def slow():
+    items = range(200)
+    with alive_bar(len(items)) as bar:
+        for item in items:
+            time.sleep(.02)
+            bar()
+
+
+# __TITLE
+title = (fig.figlet_format("doma INFO"))
+print(yellow + title + reset)
+
+
 
 argparse = argparse.ArgumentParser(description=blue + "this tool is for getting details of a domain" + reset,
                                    usage="python {} -d or --domain <{}name of the domain{}> , -i <{}ip address{}> ,"
@@ -32,6 +71,8 @@ oA = args.oA
 # DOMAIN_DETAILS
 domain_result = ''  # variable for output
 print(blue + "\n[+] FETCHING_DOMAIN_DETAILS..... ")
+print(yellow)
+jeff()
 try:
     who = whois.query(domain)
     print("\n[+] domain scanning completed....." + reset)
@@ -105,6 +146,9 @@ print(resolver_result + reset)  # PRINTING WHOLE RESULT HERE.
 
 print(blue + "\n[+] FETCHING LOCATION_DETAILS......" + reset)
 location_result = ''
+print(yellow + "please wait:")
+anime(), reset
+slow()
 try:
     req = requests.request('GET', "https://geolocation-db.com/json/" + socket.gethostbyname(domain)).json()
 except:
