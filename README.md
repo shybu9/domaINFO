@@ -20,6 +20,7 @@
 ### TESTED ON :
 
 * KALI LINUX (terminal)
+* BLACKBOX UBUNTU (terminal)
 * WINDOWS 11 (command prompt)
 * ANDROID (termux)
 
