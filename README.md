@@ -3,8 +3,8 @@
     
 
 ![domainfo--help](https://user-images.githubusercontent.com/112984045/196380032-c54af914-6c89-4af2-96a2-ca105a68ee02.png)
-<img align="left" width=320 height = 240 src="https://user-images.githubusercontent.com/112984045/196399621-b5b2faff-0437-405e-8f3f-acf435d055a0.png" alt="screenshot here...." />
-<img align="center" width=345 height = 240 src="https://user-images.githubusercontent.com/112984045/196399643-9231f3c5-82c6-43d0-90c9-70accecd404d.png" alt="screenshot here......" />
+<img align="left" width=300 height = 240 src="https://user-images.githubusercontent.com/112984045/196399621-b5b2faff-0437-405e-8f3f-acf435d055a0.png" alt="screenshot here...." />
+<img align="center" width=300 height = 240 src="https://user-images.githubusercontent.com/112984045/196399643-9231f3c5-82c6-43d0-90c9-70accecd404d.png" alt="screenshot here......" />
 <img align="right" width=300 height = 240 src="https://user-images.githubusercontent.com/112984045/196402767-b834da0a-0b59-479b-b427-cef31c071029.png" alt="screenshot here......." />
 
 
