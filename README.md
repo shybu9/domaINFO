@@ -29,10 +29,10 @@
 * python3 (recommended) | python2 | python
 * try bashing the requirements file : <br>
      ```bash
-     $ sudo chmod +x requirements.sh
+      sudo chmod +x requirements.sh
      ```
      ```bash
-     $ sudo bash requirements.sh
+      sudo bash requirements.sh
      ```
      
 * ### OR else go for every cmd in INSTALLATION
@@ -65,11 +65,11 @@
 
 * ### downloading tool 
   ```bash
-     $ sudo git clone https://github.com/shybu9/domaINFO
+      sudo git clone https://github.com/shybu9/domaINFO
      ```
 * ### syntax
   ```bash
-     $ sudo python3 domaINFO  -d or --domain <name of the domain> , -i <ip address> , -o <o/p file name>
+      sudo python3 domaINFO  -d or --domain <name of the domain> , -i <ip address> , -o <o/p file name>
      ```
   
 * ### examples
