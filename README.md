@@ -28,7 +28,7 @@
 
 ### REQUIREMENTS :
 * python3 (recommended) | python2 | python
-* try bashing the requirements file : <br>
+* try bashing the requirements file (after downloading domaINFO) : <br>
      ```bash
       sudo chmod +x requirements.sh
      ```
