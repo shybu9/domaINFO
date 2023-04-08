@@ -66,7 +66,7 @@
 
 * ### downloading tool 
   ```bash
-      sudo git clone https://github.com/shybu9/domaINFO.git
+      sudo git clone https://github.com/shybu9/domaINFO
      ```
 * ### syntax
   ```bash
